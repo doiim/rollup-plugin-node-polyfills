@@ -14,7 +14,7 @@ export default function (opts: NodePolyfillsOptions = {}) {
       'Buffer': ['buffer', 'Buffer'],
       'global': GLOBAL_PATH,
       '__filename': FILENAME_PATH,
-      '__dirname': DIRNAME_PATH,
+      '__dirname': '@doiim/' + DIRNAME_PATH,
     }
   });
   const basedir = opts.baseDir || '/';

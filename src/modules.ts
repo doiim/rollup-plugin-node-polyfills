@@ -1,4 +1,4 @@
-const EMPTY_PATH = require('../polyfills/empty.js');
+const EMPTY_PATH = require.resolve('../polyfills/empty.js');
 
 export interface NodePolyfillsOptions {
   fs?: boolean;
