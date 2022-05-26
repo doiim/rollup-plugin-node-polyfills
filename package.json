@@ -1,5 +1,5 @@
 {
-  "name": "rollup-plugin-node-polyfills",
+  "name": "@doiim/rollup-plugin-node-polyfills",
   "version": "0.2.1",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -46,6 +46,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ionic-team/rollup-plugin-node-polyfills.git"
+    "url": "git@github.com:doiim/rollup-plugin-node-polyfills.git"
   }
 }
